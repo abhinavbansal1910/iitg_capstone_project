@@ -33,13 +33,15 @@ The system implements three models:
 
 ## 📊 Architecture Diagram
 
-graph TD
-  A[Raw Data] --> B[Data Preprocessing]
-  B --> C[Feature Engineering]
-  C --> D[Train-Test Split]
-  D --> E[Model Training]
-  E --> F[Model Evaluation]
-  F --> G[Result Visualization]
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── EDA_and_Modeling.ipynb
+├── src/
+│   └── main.py
+├── README.md
+└── requirements.txt
 
 🔍 Detailed Project Architecture & Workflow
 Step 1: Data Loading & Preprocessing
